@@ -11128,6 +11128,12 @@ header.masthead .masthead-heading {
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #ffc800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline > li .timeline-image.timeline-image-text {
+  display: block;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11186,6 +11192,9 @@ header.masthead .masthead-heading {
     height: 100px;
     margin-left: -50px;
   }
+  .timeline > li .timeline-image {
+    font-size: 3rem;
+  }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 13px;
     line-height: 18px;
@@ -11208,6 +11217,9 @@ header.masthead .masthead-heading {
     width: 150px;
     height: 150px;
     margin-left: -75px;
+  }
+  .timeline > li .timeline-image i {
+    font-size: 4.5rem;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 18px;
